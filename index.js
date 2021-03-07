@@ -34,6 +34,31 @@ const questions = [
     name: 'test',
     message: 'What are the test instructions?',
   },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'What is the correct license for this project?',
+    choice : [
+      "Mozilla",
+      "Open",
+      "MIT",
+      "Apache",
+      "Academic",
+      "GNU",
+      "ISC",
+
+    ]
+  },
+  {
+    type: 'input',
+    name: 'username',
+    message: 'What is your Github username?',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email?',
+  },
 
 ];
 

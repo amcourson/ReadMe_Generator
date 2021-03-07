@@ -23,6 +23,12 @@ ${data.usage}
 ${data.contribution}
 ## test
 ${data.test}
+##license
+${data.license}
+##username
+${data.username}
+##email
+${data.email}
 `;
 }
 
